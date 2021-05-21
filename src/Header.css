@@ -1,0 +1,72 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+    position: sticky;
+    background-color: white;
+    object-fit: contain;
+}
+.header_input > input:hover {
+    cursor: text;
+}
+
+
+.header > img {
+
+    height: 50px;
+    object-fit: contain;
+}
+.icons {
+    display: flex;
+    align-items: center;
+}
+.icon {
+    padding-right: 19px;
+    
+}
+.icon > .MuiSvgIcon-root {
+    font-size: xx-large;
+
+}
+.header > .MuiSvgIcon-root {
+    font-size: xx-large;
+
+    
+}
+.header_input {
+    display: flex;
+    align-items: center;
+    /* background-color: #eff2f5; */
+    /* border-radius: 9px; */
+    padding: 5px 5px 5px 2px;
+    border-radius: 10px;
+    position: relative;
+
+
+}
+.input1 {
+    height: 30px;
+    width: 235px;
+    outline: none;
+
+
+}
+.header > .MuiSvgIcon-root {
+    font-size: xx-large;
+}
+
+.input1::placeholder {
+    text-align: center;
+}
+.header_input > .MuiSvgIcon-root {
+    position: absolute;
+    top: 16px;
+    left: 32%;
+    font-size: 18px;
+}
+.icon:hover {
+    /* background-color: #eff2f5; */
+    cursor: pointer;
+
+    } 
