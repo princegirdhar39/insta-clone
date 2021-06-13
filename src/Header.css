@@ -6,6 +6,7 @@
     position: sticky;
     background-color: white;
     object-fit: contain;
+
 }
 .header_input > input:hover {
     cursor: text;

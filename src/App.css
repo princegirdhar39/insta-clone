@@ -8,3 +8,10 @@
   display: flex;
   flex-direction: column;
 }
+.signup {
+  display: flex;
+  justify-content: flex-end;
+}
+.app__posts {
+  padding: 20px;
+}
